@@ -21,7 +21,7 @@ public class WebController {
          *  测试
          */
         User user=new User();
-        user.setName("小明");
+        user.setName("莫怡齐");
         user.setAge(12);
         user.setPass("123456");
         return user;
