@@ -17,6 +17,9 @@ public class WebController {
 
     @RequestMapping(name="/getUser", method= RequestMethod.POST)
     public User getUser() {
+        /**
+         *  测试
+         */
         User user=new User();
         user.setName("小明");
         user.setAge(12);
